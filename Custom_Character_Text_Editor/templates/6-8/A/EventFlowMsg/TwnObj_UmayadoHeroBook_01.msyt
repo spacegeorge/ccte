@@ -1,0 +1,151 @@
+---
+group_count: 11
+atr1_unknown: 4
+entries:
+  "0001":
+    attributes: ""
+    contents:
+      - text: "Don't read."
+  "0002":
+    attributes: ""
+    contents:
+      - text: Next page.
+  "0003":
+    attributes: ""
+    contents:
+      - text: Previous page.
+  "0004":
+    attributes: ""
+    contents:
+      - text: Stop reading.
+  "0005":
+    attributes: ""
+    contents:
+      - text: First page.
+  "0006":
+    attributes: ""
+    contents:
+      - text: Last page.
+  Book00:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "Read "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: "Mipha's Diary"
+      - control:
+          kind: reset_colour
+      - text: "?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5
+            - 6
+            - 1
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book01:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "At the request of Hyrule's king,\na group of outsiders came to\ngreet us at the domain.\nOne of them was a Hylian child of\nonly about four years of age.\n[P.03PD^] name was [PName].\n[P.01Sub^] made quite a first impression. [P.01Sub^][P.nwas] and full of energy, with a ready\nsmile. Are all Hylian children that way?\nOne thing that surely sets [P.02Obj] apart is\n[P.03PD] swordsmanship, which I hear is\nexceptional. [P.01Sub^][P.has] even bested adults.\n[P.01Sub^] must be somewhat reckless, however,\nas [P.01Sub][P.was] covered in bruises. Wishing to\nbe helpful, I healed [P.03PD] wounds for [P.02Obj].\nIt must have been [P.03PD] first time seeing\nhealing magic, as [P.01Sub] looked up at me\nwith big, round eyes. It was...adorable."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book02:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "A Divine Beast was excavated from\nZora's Domain. This one is called\nVah Ruta.\nThe first time I laid eyes on Ruta, I was\nsurprised by how cute it was. It's so big\nand round, with a long, awkward nose.\nAccording to the Sheikah who found\nRuta, Divine Beasts require someone\nworthy to control them.\nIt's fun to imagine someone piloting this\nenormous beast in the distant past.\nI wonder who will have that honor next."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book03:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "[PName] came to visit the domain.\nIt feels like forever since [P.01Sub][P.was]\nhere last.\nHow much [P.01Sub][P.has] grown! [P.01Sub^][P.res] the child I first met.\n\n[P.01Sub^][P.is] now an accomplished knight\nand keeper of the sword that seals the\ndarkness. I am so proud. However...\n[P.01Sub^][P.hard]\neven more rarely. [P.01Sub^][P.is] still the kind\nsoul I knew, but something has changed.\nI asked [P.02Obj] if something had happened,\nif something was wrong. [P.01Sub^] merely\nshook [P.03PD] head.\nPerhaps it is [P.03PD] newly acquired height,\nbut I feel [P.01Sub][P.is] ever looking past me,\ninto the distance beyond..."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book04:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "The princess of Hyrule paid a special\nvisit to the domain. [K.01Sub^] asked me if I\nwould agree to pilot a Divine Beast.\n[K.01Sub^] told me [K.01Sub][K.need] my help to face\nthe Calamity. My heart knew at once\nwhat to do. I agreed without reservation.\nCalamity Ganon must not be resurrected.\nIf he is, there is no way to ensure the\nsafety of my people, or of anyone.\nI do not know what will happen. All I\nknow is that if there is anything I can do\nto help, I must try. I must protect Hyrule.\nThere is also that...the Divine Beasts are\nmeant to assist the chosen hero when [P.01Sub][P.face] Ganon.\nIn this way, I can help [PName]."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book05:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "[PName] came to visit me. It had\nbeen ages.\n\nI told [P.02Obj] the Lynel of Ploymus Mountain\nhas been terrorizing everyone lately.\n\nWhen I said that, [P.01Sub] started walking\ntoward the mountain, without a word.\nSpellbound, I followed [P.02Obj] there.\nWhen we were almost there, [P.01Sub] told me\nto turn back. [P.01Sub^] insisted [P.01Sub] would be\nfine on [P.03PD] own. I stubbornly stayed.\nWhile I argued, the Lynel attacked us\nfrom behind! I was sure we had met\nour end. How silly of me to doubt.\nWith a sure hand and a fierce gleam in\n[P.03PD] eye—\n\n[PName] unsheathed the sword\nthat seals the darkness and defeated\nour foe.\n[P.03PD^] swordsmanship was swift and\ngraceful. I was fascinated by the\nbeauty of [P.03PD] movements.\nThough I should have been terrified,\nI could not help but feel safe in the\npresence of my dear friend.\n[P.03PD^] kindness and determination to help\nthose in need... [P.03PD^] strength and skill...\nMy heart is drawn to [P.04PP]. I am doomed.\nThe last beautiful move [PName]\nperformed on the mountain is called a\nSpin Attack...\nPerhaps I will attempt it with my spear."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book06:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "Father has finally given his blessing for\nme to pilot the Divine Beast. The threat\nof the Calamity can no longer be ignored.\nFather said the Zora must play their part.\nHe seemed on the brink of tears when\nhe made me promise to return unharmed.\nMy eyes burned with tears as well, so I\nsimply nodded. Seggin could hardly\nlook at me. Muzu left partway through.\nI feel awful for putting them through this,\nbut I must do what I can to help\n[PName].\nI could never forgive myself otherwise.\n\n\nSpeaking of [PName]... I have at\nlast finished gathering the materials for\nthe armor.\nI shall start making it at once."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book07:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "Today was the inauguration ceremony\nat Hyrule Castle. It was an honor to\ntake part. However...\nHonestly, I do not remember much\nabout it, but only because something\nunforgettable happened afterward.\nI experienced something wondrous,\na beautiful moment in time I shall\ntreasure forever.\nI am grateful to the princess for agreeing\nto my request,\n\nand to Daruk for...um...well, for bringing\nme closer to [PName].\n\nOh... I did hear something that shocked\nme enough to almost overshadow that\nhappy moment.\n[PName] has been chosen to guard\nthe princess wherever [K.01Sub][K.go]. They\nshall...be spending much time together..."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book08:
+    attributes: TwnObj_UmayadoHeroBook_01
+    contents:
+      - text: "I finally completed that special armor\nfor [PName]. I am confident it will\nfit [P.02Obj] perfectly.\n[P.01Sub^][P.is] coming to the domain soon. I hope\nto give [P.02Obj] my gift when I see [P.02Obj], but...\nshould I really go through with it?\nAccording to the old legend, long ago a\nZora princess fell in love with a Hylian\nswordsman. Perhaps there is hope.\nThis will be a rare occasion that\n[PName] is not accompanying\nthe princess.\nWe should have some time to\nourselves... Oh, I have an idea!\n\nAt sunset I shall ride upon Ruta with\n[PName]. Zora princess of the\npast...please lend me your courage!"
+      - control:
+          kind: choice
+          choice_labels:
+            - 3
+            - 4
+          selected_index: 1
+          cancel_index: 1
+          unknown: 6

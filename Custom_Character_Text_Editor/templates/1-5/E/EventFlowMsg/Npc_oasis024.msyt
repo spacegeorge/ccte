@@ -1,0 +1,342 @@
+---
+group_count: 11
+atr1_unknown: 4
+entries:
+  "0000":
+    attributes: ""
+    contents:
+      - text: "...Unfashionable?"
+  "0001":
+    attributes: ""
+    contents:
+      - text: Good-bye.
+  "0002":
+    attributes: ""
+    contents:
+      - text: "\"Bai and barqso\"?"
+  Near_Raimei_001:
+    attributes: Npc_oasis024
+    contents:
+      - text: "Ooo, that helm..."
+  Npc_oasis024_001:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - text: "Sorry, but in Gerudo Town it is tradition\nthat the unfashionable are not\npermitted entry.\nWe honor that tradition very strictly.\n\n\nIf you need to prepare for a journey, you\nshould head to"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: " "
+      - control:
+          kind: reset_colour
+      - text: "the oasis near the\ndesert's entrance, "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Kara Kara Bazaar
+      - control:
+          kind: reset_colour
+      - text: "."
+      - control:
+          kind: choice
+          choice_labels:
+            - 0
+            - 1
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Npc_oasis024_002:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 5
+            - 16
+      - text: "Sorry, but "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: unfashionable
+      - control:
+          kind: reset_colour
+      - text: " vai are\nnot allowed in town.\n\nIf you need to make preparations for\nyour journey, you can do so elsewhere.\n\n"
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - text: "Try "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Kara Kara Bazaar
+      - control:
+          kind: reset_colour
+      - text: ", the oasis at the\nentrance of the desert. "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Unfashionable
+      - control:
+          kind: reset_colour
+      - text: "\npeople are welcome there."
+      - control:
+          kind: choice
+          choice_labels:
+            - 0
+            - 1
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Npc_oasis024_003:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - text: "This is "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Gerudo Town
+      - control:
+          kind: reset_colour
+      - text: ", Hyrule's largest\ntrade hub.\n\nOnly "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fashionable
+      - control:
+          kind: reset_colour
+      - text: " vai and varqso are\npermitted entry within the walls.\n\nWe're constantly on alert for anyone\nwho looks suspicious."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 1
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Npc_oasis024_004:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 2
+      - text: "This place is famous for its bustling\ntrade, but also for our unusual rule:\n\nWe allow only "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: fashionable
+      - control:
+          kind: reset_colour
+      - text: " vai and\nvarqso into the town.\n\nWe're constantly on the lookout for\nanyone suspicious, so you can rest\neasy here."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 1
+          selected_index: 0
+          cancel_index: 1
+          unknown: 6
+  Npc_oasis024_005:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - control:
+          kind: sound2
+          unknown:
+            - 26
+            - 205
+      - text: "Sav'aaq."
+  Npc_oasis024_006:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - control:
+          kind: sound2
+          unknown:
+            - 25
+            - 205
+      - text: "Sav'otta."
+  Npc_oasis024_008:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 8
+            - 0
+      - text: "Not \"bai and barqso\"!"
+      - control:
+          kind: pause
+          length: long
+      - text: " "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: "Vai and varqso"
+      - control:
+          kind: reset_colour
+      - text: "!\n\n\n"
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - text: "Bite your bottom lip as you say it.\nIt translates to \"woman\" and\n\"nonbinary person\" in your language.\nSo long as we're on the subject, "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: voe
+      - control:
+          kind: reset_colour
+      - text: " is\nour word for \"man.\"\n\nIf you plan to stay awhile, you'd do well\nto learn the language."
+  Npc_oasis024_009:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 8
+            - 0
+      - text: "Yes! "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Unfashionable
+      - control:
+          kind: reset_colour
+      - text: "!\n\n\n"
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - text: "If you try to enter town and you are not\nfollowing the latest fashion trends...\n\nThe Gerudo Town Fashion Police will\nswiftly escort you off the premises.\n\nNow, so long as we're on the subject\nof Gerudo culture,\n\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Vai
+      - control:
+          kind: reset_colour
+      - text: " and "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: voe
+      - control:
+          kind: reset_colour
+      - text: " are our words for \"woman\"\nand \"man,\" respectively.\n\n"
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Varqso
+      - control:
+          kind: reset_colour
+      - text: " translates to \"nonbinary\nperson\"—anyone who isn't strictly vai\nor voe. Pretty easy to remember, right?"
+  Npc_oasis024_010:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 4
+      - text: "Since you're here, it might be worth it\nto learn some Gerudo words, right?\n\"Good-bye\" is "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: "sav'orq"
+      - control:
+          kind: reset_colour
+      - text: "."
+  Npc_oasis024_011:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - control:
+          kind: sound2
+          unknown:
+            - 27
+            - 205
+      - text: "Sav'saaba."
+  Npc_oasis024_Near001:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 8
+            - 0
+      - text: Freeze!
+      - control:
+          kind: pause
+          length: longer
+      - text: " Where do you think you're\ngoing?!"
+      - control:
+          kind: pause
+          length: longer
+      - control:
+          kind: sound2
+          unknown:
+            - 12
+            - 205
+      - text: " Not into town—that's for sure!\n\nNo unfashionable vai allowed.\n"
+      - control:
+          kind: pause
+          length: short
+      - text: Off with you!
+  Sinjyu_Female_001:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 1
+            - 0
+      - text: "The chief has calmed the "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Divine Beast
+      - control:
+          kind: reset_colour
+      - text: ".\nThe town can finally rest easy with that\nthreat handled...\nNow you can truly relax in town.\nFeel free to come inside."
+  Sinjyu_Normal_001:
+    attributes: Npc_oasis024
+    contents:
+      - control:
+          kind: sound
+          unknown:
+            - 0
+            - 0
+      - text: "The chief has calmed the "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: Divine Beast
+      - control:
+          kind: reset_colour
+      - text: ".\nThe town can finally rest easy with that\nthreat handled...\nI'm sure we'll see more business traffic\ngoing in and out than we have in a\nwhile, too.\nWhich means I have to be extra diligent\nin keeping the unfashionable from\nslipping into town with the crowds!"

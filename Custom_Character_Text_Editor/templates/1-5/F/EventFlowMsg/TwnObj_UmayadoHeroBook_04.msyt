@@ -1,0 +1,151 @@
+---
+group_count: 11
+atr1_unknown: 4
+entries:
+  "0001":
+    attributes: ""
+    contents:
+      - text: "Don't read."
+  "0002":
+    attributes: ""
+    contents:
+      - text: Next page.
+  "0003":
+    attributes: ""
+    contents:
+      - text: Previous page.
+  "0004":
+    attributes: ""
+    contents:
+      - text: Stop reading.
+  "0005":
+    attributes: ""
+    contents:
+      - text: First page.
+  "0006":
+    attributes: ""
+    contents:
+      - text: Last page.
+  Book00:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "Read "
+      - control:
+          kind: set_colour
+          colour: blue
+      - text: "Urbosa's Diary"
+      - control:
+          kind: reset_colour
+      - text: "?"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5
+            - 6
+            - 1
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book01:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "My dear friend from afar came to visit\nGerudo Town today. It is always a\npleasure to see the queen of Hyrule.\nShe described her reason for coming\nas urgent. She wished for me to meet\nher newborn child.\nHer sweet child's name is [KName].\n[K.01Sub^][K.has] [K.03PD] mother's smile. I cannot\nhelp but cherish [K.02Obj] already.\nI told her that [KName] is sure to grow up\ninto a dignified and beautiful leader,\njust like [K.03PD] mother.\nMy friend thanked me, but said that looks\nare fleeting, and instead she wishes for\n[KName] to be blessed with true happiness.\nThe way she gazes upon her child...\nher little bird, as she calls [K.02Obj]...I have\nnever seen such unconditional love."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book02:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "It has been a long while since we laid\nmy dear friend, the queen, to rest.\nI only now have the will to write again.\nIt was so sudden. I still can't believe\nshe is gone.\n\nAll of my sweet memories of her keep\nrunning through my mind. Even now,\nI can hardly keep the tears at bay.\nYoung [KName] kept [K.03PD] head held high\nas [K.01Sub] said [K.03PD] final good-bye to\n[K.03PD] mother at the funeral.\n[K.01Sub^] carried [K.05Ref] as a true royal heir,\nbut I can sense the deep grief [K.01Sub][K.is]\nhiding within. I worry for [K.02Obj]..."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book03:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "I made a voyage to visit Hyrule.\nAfter speaking with the king, I saw\n[KName] for the first time in a year.\nIn truth, it was my concern for [K.02Obj]\nthat brought me there.\n\nThe king allowed me to keep [K.02Obj]\ncompany as [K.01Sub] went to the spring\nfor [K.03PD] training.\nThere, [KName] prayed and prayed in the\nspring's icy waters until the sun set.\n\nI told [K.02Obj] many times to stop, but [K.01Sub]\nwouldn't listen. I eventually had to\ndrag [K.02Obj] out of the water.\n[KName] gazed at me for the longest time\nwith heartbreaking vulnerability.\n\nEventually, in a tiny voice, [K.01Sub] told me\nof the pressure and panic [K.01Sub][K.feel] at\nnot being able to fulfill [K.03PD] sacred duty.\n[K.01Sub^] whispered over and over, \"Why can I\nnot do as the past royal wielders of this\npower have done? What is wrong with me?\" \nAll I could do was hold [K.02Obj] close\nand listen... I pray that it is enough."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book04:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "Emissaries from Hyrule came to see me\ntoday. They informed me that I have been\nchosen to pilot the Divine Beast.\nMy people are uneasy about it. They tell\nme such a dangerous task is not fitting\nfor the chief. I understand their fear.\nHowever, I intend to accept this task.\n\n\nCalamity Ganon's resurrection does not\nonly threaten Hyrule, but the whole\nworld. I refuse to sit idly by.\nGanon is also closely associated\nwith the Gerudo...an association\nI deeply resent.\nI believe [KName] will be here soon to\nreceive my official answer. I am excited\nto see [K.02Obj], as always."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book05:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "I attended the inauguration ceremony\nalongside the other Champions whom\nI share a fate with.\n[KName], Revali, Mipha, and [PName] are so\nyoung. They are Hyrule's future. Daruk\nand I hope to help them see that future.\nHowever, one thing did trouble me.\n[KName] was...uncharacteristically cold\ntoward [PName]. I can imagine why.\nI hear [PName] has been assigned as [KName]'s\nguardian knight. I hope they find a way\nto get along."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book06:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "[PName] requested to meet with me today.\n\n\n[P.01Sub^][P.tell] me [KName] exploited our law\nthat restricts men from entering town\nto slip away from [P.02Obj].\nI told [P.02Obj] of a trick that would allow [P.02Obj]\nentrance, and [P.01Sub][P.was] able to get in.\nBy then, however, [KName] was long gone.\nI promised to let [P.02Obj] know if I saw [K.02Obj],\nso [P.01Sub] reluctantly returned home.\n\nIn a similar yet distinct way, [PName] seems\nto have trouble expressing [P.05Ref].\n\nPerhaps the two can help each other...\nThat is, if [K.01Sub][K.give] [P.02Obj] the chance."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book07:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "Today I accompanied [KName] as [K.01Sub] went\nto research Naboris. When the sun set,\nthe poor, exhausted child drifted to sleep.\nI sent word to [PName], who showed up\nat Naboris faster than I expected.\n\nAlthough it is none of my business, I felt\nthe least I could do to bridge their gap\nwas to share some things about [KName].\nThe rest is up to them."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Book08:
+    attributes: TwnObj_UmayadoHeroBook_04
+    contents:
+      - text: "I am so happy to say that [KName] smiles\nmuch more often lately. It seems [K.01Sub] and\n[PName] have finally learned to get along.\nI hope this will have a positive effect on\n[K.03PD] training. However...I am concerned\nwe may be running out of time.\nWhenever I hear of monster attacks\nor other unusual events plaguing\nthe kingdom, my concern grows.\nAll I can do is pray that [KName]...\nmy little bird...has enough time.\n\nI do not pray to the goddesses, but to\n[K.03PD] mother. My dearest friend...\nHow I miss her."
+      - control:
+          kind: choice
+          choice_labels:
+            - 3
+            - 4
+          selected_index: 1
+          cancel_index: 1
+          unknown: 6

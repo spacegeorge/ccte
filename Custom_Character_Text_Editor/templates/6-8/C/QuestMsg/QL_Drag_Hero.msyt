@@ -1,0 +1,16 @@
+---
+group_count: 3
+atr1_unknown: 0
+entries:
+  QL_Drag_Hero_Desc:
+    contents:
+      - text: "You heard of a man at the Kara Kara Bazaar\nwho found a way to sneak into Gerudo Town,\na place where only the trendiest women and\nnonbinary folk may enter.\n\nTry and locate some people who know\nhis whereabouts."
+  QL_Drag_Hero_Finish:
+    contents:
+      - text: "You snuck into Gerudo Town successfully!\n\nYou were able to bypass the town guards\nby adorning yourself in the most\nfashionable Gerudo outfit yet."
+  QL_Drag_Hero_Name:
+    contents:
+      - text: Forbidden City Entry
+  QL_Drag_Hero_Step1:
+    contents:
+      - text: "You didn't find a man at the Kara Kara Bazaar\nwho found a way to sneak into Gerudo Town,\nbut you did find a woman kind enough to give\nyou a fantastically fashionable Gerudo outfit.\n\nPut that on and you'll be able to pass for the\ntrendiest of heroes while you're wearing it..."

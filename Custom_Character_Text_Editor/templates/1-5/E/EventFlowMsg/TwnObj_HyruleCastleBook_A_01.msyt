@@ -1,0 +1,163 @@
+---
+group_count: 11
+atr1_unknown: 4
+entries:
+  "0001":
+    attributes: ""
+    contents:
+      - text: "Don't read."
+  "0002":
+    attributes: ""
+    contents:
+      - text: Next page.
+  "0003":
+    attributes: ""
+    contents:
+      - text: Previous page.
+  "0004":
+    attributes: ""
+    contents:
+      - text: Stop reading.
+  "0005":
+    attributes: ""
+    contents:
+      - text: First page.
+  "0006":
+    attributes: ""
+    contents:
+      - text: Last page.
+  Diary_00:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "The Writings of\nRhoam Bosphoramus Hyrule"
+      - control:
+          kind: choice
+          choice_labels:
+            - 5
+            - 6
+            - 1
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_01:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "Today, as the sun rose and a new day\nwas born, my son, too, joined this\nsweet world.\nIn keeping with the traditions of\nthe royal family, I have decided\nto name [K.02Obj]..."
+      - control:
+          kind: pause
+          length: short
+      - text: "[KName].\nI am not a man accustomed to frivolous\nmusings, but now seems as good a time\nas any to begin my royal memorandum."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_02:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "Reports keep arriving regarding the\nexcavation of relics."
+      - control:
+          kind: pause
+          length: short
+      - text: " The fortune teller's\npredictions seem to be coming true.\nCalamity Ganon was not a figure of fable,\nor even of legend. He actually existed in\nour great land of Hyrule.\nWe must investigate all the relics, learn\nas much as we can. But understanding\nthe Divine Beasts alone will take time...\n[KName]'s eyes lit up like a wildfire when\nI told [K.02Obj] about the relics... I must admit,\n[K.01Sub][K.has] a knack for research."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_03:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: My queen has left this world.
+      - control:
+          kind: pause
+          length: short
+      - text: " Her death\nwas so sudden and unexpected, I awaken\nmost nights unsure if she is really gone.\n[KName] never cried, never faltered. Not\neven during the royal funeral or later\nwhen [K.we] were alone with our grief.\nI must assume [K.03PD] strength is a result of\nus repeatedly informing [K.02Obj] of [K.03PD]\nduty to be a valiant and steady prince.\nFor a child of merely six years of age,\n[K.03PD] conduct was truly that of a born\nleader. [K.03PD^] strength gives me hope.\nFrom now on, I must raise [K.02Obj] all alone...\nNow, only I remain to prepare [K.02Obj] for\n[K.03PD] difficult future as prince of Hyrule."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_04:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "[KName] finally reported back after [K.03PD] visit\nto the fountain."
+      - control:
+          kind: pause
+          length: short
+      - text: " It seems [K.03PD] sacred\nsealing power has still yet to awaken.\nIt has been a year and three months since\n[K.03PD] mother passed."
+      - control:
+          kind: pause
+          length: short
+      - text: " Perhaps [K.01Sub][K.is]\nheld back by heartache too deep to heal.\nIf the Ganon prophecy wasn't looming\nover our heads, I would tell [K.02Obj] to take\n[K.03PD] time... To wait until [K.01Sub][K.is] ready.\nBut our situation is dire and leaves no\nroom for weakness—even on behalf of\nmy beloved son.\nMy heart breaks for [KName], but I must act\nas a king, not a father. I must order [K.02Obj]\nto train relentlessly at the fountain."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_05:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "I was told [KName] went off to research\nancient technology, so I had no\nchoice but to confront [K.02Obj] about it.\n[K.01Sub^][K.claim] [K.01Sub][K.was] simply using [K.03PD]\nday off from training to indulge in a bit\nof research, but still I scolded [K.02Obj].\n[K.01Sub^] won't get it through [K.03PD] head...\nForcing me to tell [K.02Obj] the same thing\nI have been repeating ad nauseam.\nThe reason [K.03PD] sacred powers still won't\nawaken is because [K.01Sub][K.'s] spending all\n[K.03PD] efforts playing at being a scholar!"
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_06:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "In truth, I understand [KName]'s feelings.\nPainfully so."
+      - control:
+          kind: pause
+          length: short
+      - text: " [K.01Sub^] lost [K.03PD] mother, [K.03PD]\nteacher, before [K.01Sub] could learn from her.\nTen pointless years of self-training,\nwithout so much as a book or note\nto help [K.02Obj] find [K.03PD] way...\nThose in the castle talk behind [K.03PD] back.\nAnd I, [K.03PD] only family, scold [K.02Obj] for\n[K.03PD] shortcomings.\nNo wonder [K.01Sub][K.wish] to hide away in\n[K.03PD] beloved relic research. I'd love\nnothing more than to console [K.02Obj]...\nBut I must stay strong. [K.01Sub^] MUST\nfulfill [K.03PD] duty, just as we all must.\nEven if [K.01Sub][K.com] to despise me."
+      - control:
+          kind: choice
+          choice_labels:
+            - 2
+            - 3
+            - 4
+          selected_index: 0
+          cancel_index: 2
+          unknown: 8
+  Diary_07:
+    attributes: TwnObj_HyruleCastleBook_A_01
+    contents:
+      - text: "I have been told my [KName] went to the\nSpring of Wisdom...\n\nThis will likely be [K.03PD] last chance.\nIf [K.01Sub][K.is] unable to awaken [K.03PD] power\nat Lanayru, all hope is truly lost.\nIf [K.01Sub][K.com] back without success,"
+      - control:
+          kind: pause
+          length: short
+      - text: "\nthen I shall speak kindly with [K.02Obj].\nScolding is pointless now.\nI forced 10 years of training on [K.02Obj]..."
+      - control:
+          kind: pause
+          length: short
+      - text: "\nand after all that, it seems [K.03PD] power\nwill stubbornly awaken some other way.\nPerhaps I should encourage [K.02Obj] to keep\nresearching [K.03PD] beloved relics. They may\njust lead [K.02Obj] to answers I can't provide.\nFor now, I sit anxiously, more a father\nthan a king in this moment. I sit and\nawait my son's return."
+      - control:
+          kind: choice
+          choice_labels:
+            - 3
+            - 4
+          selected_index: 1
+          cancel_index: 1
+          unknown: 6
