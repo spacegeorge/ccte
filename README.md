@@ -3,6 +3,11 @@
 
 Author: **SpaceGeorge**
 
+### Customization Details:
+1. **Names** - Customizable up to 8 characters long.
+2. **Pronouns** - Options include, but are not limited to, he/him, she/her, they/them, and neopronouns. Link and Zelda may each have up to 2 sets of pronouns.
+3. **Gender** - Boy, girl, and nonbinary options.
+
 ### Requires:
 1.	**BCML** (Required for CCTE and both Custom Character Text Variety Packs 1 and 2; the rest are required only for CCTE)
 2.	**Python 3.9+ 64bit**
